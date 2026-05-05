@@ -46,6 +46,7 @@ Docs: https://docs.openclaw.ai
 
 ### Fixes
 
+- BlueBubbles: keep helper-disconnect `imsg` fallback sends non-actionable, preserve user-authored self-chat prompts, and report disconnected Private API helpers from the channel plugin status collector. Thanks @neilofneils404.
 - Gate zalouser startup name matching [AI]. (#77411) Thanks @pgondhi987.
 - fix(device-pair): require pairing scope for pair command [AI]. (#76377) Thanks @pgondhi987.
 - fix(qqbot): keep private commands off framework surface [AI]. (#77212) Thanks @pgondhi987.
